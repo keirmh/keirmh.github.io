@@ -62,13 +62,13 @@
   @include breakpoint($x-large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow;
+    width: 75px;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    width: 75px;
   }
 }
 
