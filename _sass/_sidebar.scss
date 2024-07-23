@@ -42,12 +42,12 @@
   }
 
   h3, h4 {
-    font-size: $type-size-5;
+    font-size: $type-size-6;
   }
 
   p, li {
     font-family: $cmuserif;
-    font-size: $type-size-6;
+    font-size: $type-size-7;
     line-height: 1.5;
   }
 
@@ -90,7 +90,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 225px;
     border-radius: 50%;
 
     @include breakpoint($x-large) {
@@ -125,7 +125,7 @@
 }
 .sidebar .author__name {
   font-family: $cmuserif;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 }
 
 .sidebar .author__desktop {
@@ -234,7 +234,7 @@
     border-color: #fff transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
+    @include breakpoint($x-large) {
       display: none;
     }
   }
