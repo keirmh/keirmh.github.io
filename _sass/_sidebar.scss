@@ -217,7 +217,7 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
+    @include breakpoint($x-large) {
       display: none;
     }
   }
